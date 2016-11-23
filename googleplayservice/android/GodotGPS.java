@@ -1,5 +1,5 @@
 
-package com.android.godot;
+package org.godotengine.godot;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;

@@ -31,12 +31,12 @@ In your project:
 file engine.cfg add
 ```
   [android]
-    modules="com/android/godot/GodotGPS"
+    modules="org/godotengine/godot/GodotGPS"
 ``` 
 If you use multiple modules add with comma (without space) such as
 ```
   [android]
-    modules="com/android/godot/GodotAdMob,com/android/godot/GodotGPS"
+    modules="org/godotengine/godot/GodotAdMob,org/godotengine/godot/GodotGPS"
 ```
 Export->Target->Android
 

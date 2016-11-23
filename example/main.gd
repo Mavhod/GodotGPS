@@ -1,11 +1,11 @@
 
 extends Node
-const LEADERBOARD_ID	= "XXXXXXXXXXXXXXXXXX"	# Place your Leaderboard ID here
+const LEADERBOARD_ID = "XXXXXXXXXXXXXXXXXX" # Place your Leaderboard ID here
 var gps
 
 func _ready():
 	if(Globals.has_singleton("GooglePlayService")):
-		gps		= Globals.get_singleton("GooglePlayService")
+		gps = Globals.get_singleton("GooglePlayService")
 		gps.init()
 	else:
 		gps	= null
